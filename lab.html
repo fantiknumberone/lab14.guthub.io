@@ -1,0 +1,99 @@
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  </head>
+      <div class="main" id="main">
+        <div class="head">
+          <img class="Avatar" src="https://i124.fastpic.org/thumb/2024/1204/d0/15df3aea0785812b53fb9dad2d1d63d0.jpeg" border="0"></a>
+          <div class="nameBox">
+            <div class="greetingPhrase">Привет! Я</div>
+            <div class="yourInfo">
+              <div class="name" onclick="changetext(this)">Регузов Артем</div>
+              <div class="role" onclick="changetext(this)">Студент СибГУТИ</div>
+            </div>
+          </div>
+          <div class="languagesBox">
+            <div class="title">Языки:</div>
+            <div class="english" onclick="changeLanguage(this)">
+              English
+              <img
+                class="engflag" id= "flag"
+                src="https://www.a1flags.com.au/images/Catalogue/Flag/uk---.svg"
+                alt="Флаг Англии"
+              />
+            </div>
+            <div class="russian" onclick="changeLanguage(this)">
+              Русский
+              <img
+                class="rusflag" id="flag"
+                src="https://sc24-surgut.gosuslugi.ru/netcat_files/userfiles/Ofitsal_no/Flag_Rossii_1_.jpg"
+                alt="Флаг России"
+              />
+            </div>
+            <div class="german" onclick="changeLanguage(this)">
+              Deutsch
+              <img
+                class="gerflag" id="flag"
+                src="https://www.labelocean.de/ae/Germany/Flaggen/ES-FL-DEU.jpg"
+                alt="Флаг Германии"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="expBox">
+            <div class="title">Опыт</div>
+            <div class="exp" onclick="changetext(this)">
+              Ещё год назад изучал язык Си и Си++ на «программировании», имею понятия о базах данных (MySQL), шарю за Cи#, базовые понятия высшей математики, дискретной математики, математической логики и информатики. В этом году начинаю осваивать JS, python, html.
+  Имеется опыт работы с дизайном сайта, его размещением. Fullstack одним словом, возьмите меня на работу 😊
+  
+            </div>
+          </div>
+          <div class="toolsBox">
+            <div class="title">Навыки</div>
+            <div class="tools">
+              <ul>
+                <li onclick="changeLi(this)"><span>Photoshop</span></li>
+                <li onclick="changeLi(this)"><span>python</span></li>
+                <li onclick="changeLi(this)"><span>C++</span></li>
+                <li onclick="changeLi(this)"><span>C и С#</span></li>
+                <li onclick="changeLi(this)"><span>GitHub</span></li>
+                <li onclick="changeLi(this)"><span>Figma</span></li>
+                <li onclick="changeLi(this)"><span>HTML+CSS+JS</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="foot">
+          <div class="educationBox">
+            <div class="title">Образование</div>
+            <div class="schoolBox">
+              <div class="school" onclick="changetext(this)">Школа 3 г.Каргат Среднее общее</div>
+            </div>
+            <div class="schoolBox">
+              <div class="school" onclick="changetext(this)">СибГУТИ ИВТ Программное обеспечение мобильных сетей 2 курс</div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="interestsBox">
+              <div class="title">Интересы</div>
+              <ul>
+                <li onclick="changeLi(this)"><span>Программирование</span></li>
+                <li onclick="changeLi(this)"><span>Игра в pubgm 6 лет</span></li>
+                <li onclick="changeLi(this)"><span>Воллейбол</span></li>
+                <li onclick="changeLi(this)"><span>Тяж атлетика</span></li>
+                <li onclick="changeLi(this)"><span>Игра на гитаре</span></li>
+              </ul>
+            </div>
+            <div class="contactBox">
+              <div class="title">Контакты</div>
+              <div class="contactText">Номер телефона:</div>
+              <div class="phoneNumber" onclick="changetext(this)">+7(996)545-25-98</div>
+              <div class="contactText">Почта:</div>
+              <div class="email" onclick="changetext(this)">artemreguzov906@gnail.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="PDFbutton">
+          <button onclick="captureImage()">Загрузить</button>
+        </div>
+      </div>
